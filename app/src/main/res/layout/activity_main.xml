@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <Button
+            android:id="@+id/block1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/block18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/block19"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block21"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block22"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block23"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block25"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block26"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block27"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="130dp" />
+
+        <Button
+            android:id="@+id/block36"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block35"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block34"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block33"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block32"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block31"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block30"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block29"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block28"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:id="@+id/block37"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block38"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block39"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block40"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block41"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block42"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block43"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block44"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block45"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="210dp" />
+
+        <Button
+            android:id="@+id/block54"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block53"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block52"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block51"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block50"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block49"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block48"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block47"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="250dp" />
+
+        <Button
+            android:id="@+id/block46"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="250dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/inform_text"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="120dp"
+                    android:text="消息:" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <com.jude.rollviewpager.RollPagerView
+            android:id="@+id/dice_roll_view"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="290dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="50dp">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/melly" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="55dp"
+                    android:text="HP:" />
+
+                <TextView
+                    android:id="@+id/hp_text1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="85dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="MP:" />
+
+                <TextView
+                    android:id="@+id/mp_text1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="150dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="28dp"
+                    android:text="DP:" />
+
+                <TextView
+                    android:id="@+id/dp_text1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="28dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="28dp"
+                    android:text="CP:" />
+
+                <TextView
+                    android:id="@+id/cp_text1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="28dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/sunny" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="55dp"
+                    android:text="HP:" />
+
+                <TextView
+                    android:id="@+id/hp_text2"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="85dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="MP:" />
+
+                <TextView
+                    android:id="@+id/mp_text2"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="150dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="28dp"
+                    android:text="DP:" />
+
+                <TextView
+                    android:id="@+id/dp_text2"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="28dp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="28dp"
+                    android:text="CP:" />
+
+                <TextView
+                    android:id="@+id/cp_text2"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="28dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="420dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/attack_bt"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="攻击" />
+                <Button
+                    android:id="@+id/move_bt"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="5dp"
+                    android:text="移动"
+                   />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="490dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="武器"
+                    android:id="@+id/weapon_bt"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                    android:text="道具"
+                    android:id="@+id/hallows_bt"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="5dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
